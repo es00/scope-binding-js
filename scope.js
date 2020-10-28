@@ -19,6 +19,8 @@ const fee = 200;
 
 let rachelAddToBalance = function() {
   // TODO: Implement this function with the constant variable `fee` above.
+  this.total = this.total + this.fee;
+  console.log(this.name + ' remaining balance is '+ this.fee);
   
 };
 
